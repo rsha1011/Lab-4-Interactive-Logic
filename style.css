@@ -8,6 +8,11 @@ body {
   height: 100%;
   margin: 0;
   background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .box {
@@ -39,3 +44,8 @@ body {
   left: 800px;
 }
 
+#reset-btn {
+  margin-bottom: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
